@@ -20,7 +20,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(/static/css/d-6IYplOFocCacKzxwXSOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(/static/cs.profile s/d-6IYplOFocCacKzxwXSOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 @font-face {
   font-family: 'Roboto';
@@ -34,7 +34,15 @@
   font-weight: 400;
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(/static/css/2fcrYFNaTjcS6g4U3t-Y5RV6cRhDpPC5P4GCEJpqGoc.woff) format('woff');
 }
-
+@font-face {
+  font-family: 'iconfont';  /* project id 1406471 */
+  src: url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.eot');
+  src: url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1406471_4uj12hwcupt.svg#iconfont') format('svg');
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
