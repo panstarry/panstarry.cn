@@ -34807,7 +34807,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         beginDate: this.dateList[0],
         endDate: this.dateList[1]
       });
-      if (this.rankType == 4) {
+      if (this.query.rankType == 4) {
         args.orderByAsc = true;
       }
       $.Req.service($.SvName.MEMBER_RANK_STAT, args, ret => {
@@ -35824,7 +35824,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         beginDate: this.dateList[0],
         endDate: this.dateList[1]
       });
-      if (this.rankType == 4) {
+      if (this.query.rankType == 4) {
         args.orderByAsc = true;
       }
       if (this.lessonType == "pl") {
