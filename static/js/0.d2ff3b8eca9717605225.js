@@ -30048,11 +30048,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     // 打开相机
     clickCode() {
       wx.scanQRCode({
-        needResult: 0, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+        needResult: 1, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
         scanType: ["qrCode"], // 可以指定扫二维码还是一维码，默认二者都有
         success: function (res) {
           console.log(res);
-          var result = res.resultStr; // 当needResult 为 1 时，扫码返回的结果
+          this.onDecode(res.resultStr);
         }
       });
       // camera: 'rear'--前摄像头，'front'后摄像头，'off'关闭摄像头，会获取最后一帧显示，'auto'开始获取摄像头
