@@ -30021,7 +30021,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       appId: "wx987adf384000e082",
       timestamp: 1701619530,
       nonceStr: "wdqwdwd",
-      signature: "2fea810d295cabf54726262331881cc670eba02c",
+      signature: "e7454a71fd86277715313dad0f4ae64ab63de23e",
       jsApiList: ["checkJsApi", "onMenuShareTimeline", "onMenuShareAppMessage", "scanQRCode"]
     });
     wx.error(function (res) {
