@@ -22,9 +22,9 @@ webpackJsonp([28],{
  * Created by zxl on 2017/4/19.
  */
 const Conf = {
-  API_HOST: "http://192.168.0.174:8093", //'http://192.168.0.107:8090', //'http://127.0.0.1:8090',
+  API_HOST: "https://4pm061jq5175.vicp.fun", //'http://192.168.0.107:8090', //'http://127.0.0.1:8090',
   IMG_BASE_URL: "//qdimg.oss-cn-shanghai.aliyuncs.com",
-  IMG_UPLOAD_URL: "http://192.168.0.174:8093" + "/imgUpload",
+  IMG_UPLOAD_URL: "https://4pm061jq5175.vicp.fun" + "/imgUpload",
   ACCEPT_DISTANCE: 400,
   PAGE_SIZE: 30,
   //IMG_LIB_URL: 'http://www.jzongguan.com/imglib',
