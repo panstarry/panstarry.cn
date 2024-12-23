@@ -4028,13 +4028,13 @@ var Req = {
 					var isTenant = false;
 					if (serviceName == 'login' && svRep.data.shopList && svRep.data.shopList.length > 1) return;
 					if (serviceName == 'tenantShopsQuery') isTenant = true;
-					$.Req.queryPaymentType(isTenant);
+					// $.Req.queryPaymentType(isTenant)
 
 					// 小程序
 					if ($.Util.isInWxMiniProgram()) {
 						wx.miniProgram.postMessage({
 							data: {
-								shopId: '123123123'
+								shopId: svRep.data.shop.shopId
 							}
 						});
 					}
