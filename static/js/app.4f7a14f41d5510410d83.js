@@ -4032,10 +4032,13 @@ var Req = {
 
 					// 小程序
 					if ($.Util.isInWxMiniProgram()) {
-						wx.miniProgram.postMessage({
-							data: {
-								shopId: svRep.data.shop.shopId
-							}
+						$.Req.service($.SvName.SHOP_ID_QUERY_FOR_MSITE, {}, function (ret) {
+							wx.miniProgram.postMessage({
+								data: {
+									shopId: ret.shopId
+								}
+							});
+							alert(ret.shopId);
 						});
 					}
 				}
