@@ -1,0 +1,423 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.pc {
+  display: block !important;
+}
+.app {
+  display: none !important;
+}
+li {
+  list-style: none;
+}
+.logo {
+  cursor: pointer;
+}
+.ability-test .header {
+  position: relative;
+}
+.ability-test .header .banner-img {
+  display: block;
+  width: 100%;
+  height: 680px;
+  background-image: './img/banner.png' 100% 680px;
+}
+.ability-test .header .banner-text {
+  position: absolute;
+  top: 63px;
+  left: 24.5%;
+  color: #fff;
+}
+.ability-test .header .banner-text .logo {
+  width: 150px;
+  margin-bottom: 120px;
+}
+.ability-test .header .banner-text .big {
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 81px;
+}
+.ability-test .header .banner-text .big .pc {
+  display: inline !important;
+}
+.ability-test .header .banner-text .msg {
+  font-size: 36px;
+  margin-top: 45px;
+  line-height: 50px;
+}
+.ability-test .section .li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ability-test .section .title {
+  font-size: 40px;
+  color: #3D3D3D;
+  line-height: 56px;
+  text-align: center;
+  padding: 80px 0;
+}
+.ability-test .section .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+}
+.ability-test .section .li-one {
+  background-color: #fff;
+}
+.ability-test .section .li-one .content {
+  padding-bottom: 106px;
+}
+.ability-test .section .li-one .content .card {
+  width: 580px;
+  height: 155px;
+  background: linear-gradient(180deg, #F1F6FF 0%, rgba(241, 246, 255, 0) 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+}
+.ability-test .section .li-one .content .card:nth-of-type(even) {
+  margin-right: 0px;
+}
+.ability-test .section .li-one .content .card img {
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+}
+.ability-test .section .li-one .content .card .name {
+  font-weight: 400;
+  font-size: 26px;
+  color: #3D3D3D;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.ability-test .section .li-one .content .card .value {
+  font-size: 14px;
+  color: #3D3D3D;
+  line-height: 24px;
+  text-align: left;
+}
+.ability-test .section .li-two {
+  background: #F9FAFF;
+  padding-bottom: 102px;
+}
+.ability-test .section .li-two .title {
+  padding: 88px 0 50px 0;
+}
+.ability-test .section .li-two .content .card {
+  width: 340px;
+  flex-direction: column;
+  justify-content: center;
+}
+.ability-test .section .li-two .content .card:nth-of-type(2) {
+  margin: 0 90px;
+}
+.ability-test .section .li-two .content .card .card-name {
+  font-size: 26px;
+  color: #333333;
+  line-height: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.ability-test .section .li-two .content .card .card-value {
+  position: relative;
+}
+.ability-test .section .li-two .content .card .card-value img {
+  width: 100%;
+  height: 352px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+.ability-test .section .li-two .content .card .card-value .msg {
+  vertical-align: middle;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 79px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ability-test .section .li-three .content {
+  justify-content: space-between;
+  padding-bottom: 140px;
+}
+.ability-test .section .li-three .content .card .card-name {
+  margin-top: 40px;
+  font-size: 28px;
+  color: #3D3D3D;
+  line-height: 39px;
+  text-align: center;
+}
+.ability-test .section .li-four .content .card {
+  height: 184px;
+  background: linear-gradient(180deg, #F2F4F8 0%, #FFFFFF 100%);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: -2px 4px 5px 0px #eee;
+}
+.ability-test .section .li-four .content .card img {
+  width: 130px;
+  height: 130px;
+  margin-right: 40px;
+}
+.ability-test .section .li-four .content .card .value {
+  font-size: 20px;
+  color: #666666;
+  line-height: 28px;
+}
+.ability-test .section .li-five {
+  padding-bottom: 200px;
+}
+.ability-test .section .li-five .title {
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+.ability-test .section .li-six {
+  padding-bottom: 223px;
+}
+.ability-test .section .li-six .content {
+  justify-content: space-between;
+}
+.ability-test .section .li-six .content .card {
+  width: 285px;
+  height: 144px;
+  background: #F9FAFF;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3D3D3D;
+  line-height: 36px;
+}
+.ability-test .section .li-six .content .card .name {
+  font-size: 26px;
+}
+.ability-test .section .li-six .content .card .value {
+  font-size: 20px;
+}
+.ability-test .footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 46, 240, 0.8);
+  color: #fff;
+}
+.ability-test .footer img {
+  width: 120px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.ability-test .footer span {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .pc {
+    display: none !important;
+  }
+  .app {
+    display: block !important;
+  }
+  .ability-test .app {
+    width: 100%;
+    display: block;
+  }
+  .ability-test .top {
+    height: 40px;
+    background-color: #333;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ability-test .top .logo {
+    height: 16px;
+  }
+  .ability-test .top .more {
+    height: 16px;
+  }
+  .ability-test .header .banner-img {
+    height: 240px;
+  }
+  .ability-test .header .banner-text {
+    top: 76px;
+    left: 39px;
+  }
+  .ability-test .header .banner-text .big {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+  }
+  .ability-test .header .banner-text .big .pc {
+    display: none !important;
+  }
+  .ability-test .header .banner-text .msg {
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 17px;
+    margin-top: 5px;
+  }
+  .ability-test .section .list .li .content {
+    width: 345px;
+    margin: 0;
+    padding: 0;
+  }
+  .ability-test .section .list .li .content .card {
+    width: 100%;
+  }
+  .ability-test .section .list .li .content .card .card-r .name {
+    font-size: 13px;
+    color: #3D3D3D;
+    line-height: 18px;
+  }
+  .ability-test .section .list .li .content .card .card-r .value {
+    font-size: 10px;
+    color: #3D3D3D;
+    line-height: 16px;
+  }
+  .ability-test .section .list .li .title {
+    font-size: 14px;
+    color: #000000;
+    line-height: 19.5px;
+    font-weight: bold;
+    padding: 26.5px 0 15px 0;
+  }
+  .ability-test .section .list .li-one .content {
+    flex-direction: column;
+  }
+  .ability-test .section .list .li-one .content .card {
+    height: 90px;
+    padding: 0px 15px;
+    padding-right: 3px;
+    flex-direction: row-reverse;
+    margin-right: 0px;
+  }
+  .ability-test .section .list .li-one .content .card img {
+    width: 65px;
+    height: 65px;
+    margin-right: 0px;
+  }
+  .ability-test .section .list .li-one .content .card .card-r {
+    flex: 1;
+  }
+  .ability-test .section .list .li-one .content .card .card-r .name {
+    font-weight: bold;
+  }
+  .ability-test .section .list .li-two {
+    background-color: #fff;
+    padding-bottom: 45px;
+  }
+  .ability-test .section .list .li-two .content {
+    justify-content: space-between;
+  }
+  .ability-test .section .list .li-two .content .card {
+    width: 108px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  .ability-test .section .list .li-two .content .card img {
+    width: 100%;
+    height: 108px;
+    border-radius: 10px;
+  }
+  .ability-test .section .list .li-two .content .card .msg {
+    height: 100%;
+    font-size: 9px;
+    color: #FFFFFF;
+    line-height: 12.5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 4px;
+  }
+  .ability-test .section .list .li-two .content .card .card-name {
+    font-size: 12px;
+    color: #333333;
+    line-height: 17px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .ability-test .section .list .li-two .content .card:nth-of-type(2) {
+    margin: 0px;
+  }
+  .ability-test .section .list .li-three .title {
+    padding: 0px 0px 20px 0;
+  }
+  .ability-test .section .list .li-three .content .card img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .ability-test .section .list .li-three .content .card .card-name {
+    font-size: 14px;
+    color: #3D3D3D;
+    line-height: 19.5px;
+    margin: 10px 0 25px 0;
+  }
+  .ability-test .section .list .li-four .content .card {
+    flex-direction: row;
+    box-shadow: none;
+    margin-right: 0px;
+    padding: 0px 12px;
+    height: 92px;
+    margin-bottom: 12px;
+  }
+  .ability-test .section .list .li-four .content .card:last-of-type {
+    margin-bottom: 0px;
+  }
+  .ability-test .section .list .li-four .content .card img {
+    width: 80px;
+    height: 80px;
+    margin-right: 26px;
+  }
+  .ability-test .section .list .li-four .content .card .card-r {
+    flex: 1;
+  }
+  .ability-test .section .list .li-five {
+    padding-bottom: 0px;
+  }
+  .ability-test .section .list .li-five .title {
+    padding: 34px 0 20px 0;
+  }
+  .ability-test .section .list .li-five .content {
+    width: 325px;
+  }
+  .ability-test .section .list .li-six {
+    padding-bottom: 50px;
+  }
+  .ability-test .section .list .li-six .title {
+    padding: 45px 0 20px 0;
+  }
+  .ability-test .section .list .li-six .content {
+    width: 325px;
+    justify-content: space-between;
+  }
+  .ability-test .section .list .li-six .content .card {
+    height: 72px;
+    margin-bottom: 15px;
+    flex: 40%;
+  }
+  .ability-test .section .list .li-six .content .card:nth-of-type(even) {
+    margin-left: 20px;
+  }
+  .ability-test .section .list .li-six .content .card .name,
+  .ability-test .section .list .li-six .content .card .value {
+    font-size: 12px;
+    color: #3D3D3D;
+    line-height: 17px;
+  }
+}
