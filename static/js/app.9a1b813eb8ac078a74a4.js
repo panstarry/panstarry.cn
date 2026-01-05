@@ -5123,7 +5123,8 @@ var Util = {
 		myMap.plugin('AMap.Geolocation', function () {
 			geolocation = new AMap.Geolocation({
 				enableHighAccuracy: true, //是否使用高精度定位，默认:true
-				timeout: 10000, //超过10秒后停止定位，默认：无穷大
+				// timeout: 10000,           //超过10秒后停止定位，默认：无穷大
+				timeout: 1000000000,
 				buttonPosition: 'RB'
 			});
 			geolocation.getCurrentPosition();
@@ -5517,7 +5518,8 @@ var Req = {
 			method: 'post',
 			url: __WEBPACK_IMPORTED_MODULE_4__const__["b" /* Conf */].API_HOST + '/' + serviceName,
 			data: __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_json_stringify___default()(args),
-			timeout: 10000,
+			// timeout: 10000,
+			timeout: 1000000000,
 			headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' }
 		}).then(function (response) {
 			if (showLoading) Util.endLoading();
